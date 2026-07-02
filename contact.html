@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us | CEVANTA GLOBAL</title>
+    <meta name="description" content="Request a quote or contact CEVANTA GLOBAL for premium Sri Lankan exports.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=Playfair+Display:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script src="assets/js/tailwind-config.js"></script>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body class="font-sans antialiased bg-primary-light text-charcoal">
+    <header id="header" class="fixed w-full z-50 transition-all duration-300 bg-primary-dark/95 backdrop-blur-md shadow-md text-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 flex justify-between items-center h-24">
+            <a href="index.html"><img src="assets/images/logo.svg" alt="CEVANTA GLOBAL" class="h-12 w-auto filter brightness-0 invert"></a>
+            <nav class="hidden md:flex space-x-8">
+                <a href="index.html" class="text-sm font-medium hover:text-accent-gold transition-colors">Home</a>
+                <a href="products/index.html" class="text-sm font-medium hover:text-accent-gold transition-colors">Products</a>
+                <a href="services/index.html" class="text-sm font-medium hover:text-accent-gold transition-colors">Services</a>
+                <a href="contact.html" class="text-sm font-medium hover:text-accent-gold transition-colors text-accent-gold">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="pt-32 pb-16 bg-white">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-16 fade-in-up">
+                <!-- Contact Info -->
+                <div>
+                    <h1 class="text-5xl font-serif text-primary-dark mb-6">Partner With Us</h1>
+                    <p class="text-charcoal/80 mb-12 text-lg">We welcome enquiries from businesses worldwide. Fill out the form to request a quotation, or reach out to us directly.</p>
+                    
+                    <div class="space-y-8">
+                        <div>
+                            <h4 class="text-sm font-semibold uppercase tracking-widest text-primary-dark mb-2">Head Office</h4>
+                            <p class="text-charcoal/70">7/C/4 Gallawatta Dambaduraya Seeduwa, Sri Lanka</p>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-semibold uppercase tracking-widest text-primary-dark mb-2">Business Email</h4>
+                            <a href="mailto:cevantaglobal1@gmail.com" class="text-accent-gold font-medium hover:text-primary-dark transition-colors">cevantaglobal1@gmail.com</a>
+                        </div>
+                        <div>
+                            <h4 class="text-sm font-semibold uppercase tracking-widest text-primary-dark mb-2">Phone & WhatsApp</h4>
+                            <a href="tel:+94778669751" class="text-accent-gold font-medium hover:text-primary-dark transition-colors">+94 77 866 9751</a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Inquiry Form -->
+                <div class="bg-primary-light p-8 rounded-sm shadow-sm border border-grey-warm/20">
+                    <h3 class="text-2xl font-serif text-primary-dark mb-6">Request a Quotation</h3>
+                    <form class="space-y-4">
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-charcoal/60 uppercase mb-1">Product of Interest</label>
+                                <input type="text" class="w-full bg-white border border-grey-warm/30 rounded-sm px-4 py-2 focus:outline-none focus:border-accent-gold transition-colors" placeholder="e.g. Ceylon Cinnamon C5">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-charcoal/60 uppercase mb-1">Estimated Quantity</label>
+                                <input type="text" class="w-full bg-white border border-grey-warm/30 rounded-sm px-4 py-2 focus:outline-none focus:border-accent-gold transition-colors" placeholder="e.g. 1000kg">
+                            </div>
+                        </div>
+                        
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-charcoal/60 uppercase mb-1">Destination Country</label>
+                                <input type="text" class="w-full bg-white border border-grey-warm/30 rounded-sm px-4 py-2 focus:outline-none focus:border-accent-gold transition-colors" placeholder="Country name">
+                            </div>
+                            <div>
+                                <label class="block text-xs font-semibold text-charcoal/60 uppercase mb-1">Preferred Incoterms</label>
+                                <select class="w-full bg-white border border-grey-warm/30 rounded-sm px-4 py-2 focus:outline-none focus:border-accent-gold transition-colors text-charcoal/80">
+                                    <option>FOB</option>
+                                    <option>CIF</option>
+                                    <option>EXW</option>
+                                    <option>Other / Not Sure</option>
+                                </select>
+                            </div>
+                        </div>
+
+                        <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+                            <div>
+                                <label class="block text-xs font-semibold text-charcoal/60 uppercase mb-1">Packaging Preference</label>
+                                <input type="text" class="w-full bg-white border border-grey-warm/30 rounded-sm px-4 py-2 focus:outline-none focus:border-accent-gold transition-colors" placeholder="Bulk, Retail, etc.">
+                            </div>
+                            <div class="flex items-center mt-6">
+                                <input type="checkbox" id="private_label" class="mr-2 text-accent-gold focus:ring-accent-gold">
+                                <label for="private_label" class="text-sm text-charcoal/80">Private Label Required</label>
+                            </div>
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-charcoal/60 uppercase mb-1">Certification Requirements</label>
+                            <input type="text" class="w-full bg-white border border-grey-warm/30 rounded-sm px-4 py-2 focus:outline-none focus:border-accent-gold transition-colors" placeholder="e.g. Organic, ISO">
+                        </div>
+
+                        <div>
+                            <label class="block text-xs font-semibold text-charcoal/60 uppercase mb-1">Message</label>
+                            <textarea rows="4" class="w-full bg-white border border-grey-warm/30 rounded-sm px-4 py-2 focus:outline-none focus:border-accent-gold transition-colors" placeholder="Additional details..."></textarea>
+                        </div>
+
+                        <button type="submit" class="w-full bg-primary-dark text-white py-3 rounded-sm text-sm font-semibold tracking-widest uppercase hover:bg-accent-gold transition-all duration-300">Submit Inquiry</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
